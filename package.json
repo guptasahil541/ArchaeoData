@@ -1,0 +1,30 @@
+{
+  "name": "archaeodata",
+  "version": "0.1.0",
+  "description": "A robust combination of Node.js backend services that can effectively process, store, and query historical event fragments to reconstruct and analyze complete timelines.",
+  "bugs": {
+    "url": "https://github.com/guptasahil541/ArchaeoData/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptasahil541/ArchaeoData.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "pg": "^8.20.0",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.21.0"
+  }
+}
